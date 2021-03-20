@@ -1,0 +1,18 @@
+:root {
+    --background_colour: #dfdfdf;
+    --primary_colour: ;
+    --secondary_colour: ;
+}
+
+img {
+  display: block;
+  border: 2px solid #a8aefa;
+}
+
+#my_photo {
+  width: 400px;
+}
+
+#myer_briggs_img, #myer_briggs_img2, #learning_styles, #leadership_style {
+  width: 250px;
+}
