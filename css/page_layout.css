@@ -1,0 +1,85 @@
+/*
+    Style
+    Monochrome Black/White with a feature colour main background,
+    The feature colour will be reflected in the nav menu highlights.
+
+*/
+
+/*
+    Environmental variables
+*/
+:root {
+    --banner_footer: #363636;
+    --navbar_colour: #6d6d6d;
+    --background_colour: #dfdfdf;
+    --primary_colour: ;
+    --secondary_colour: ;
+    --text_primary_colour: ;
+    --text_secondary_colour: ;
+    --highlight_colour: #a8aefa;
+    --stock_height: 50px;
+}
+
+/*
+    Grid layout
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template:
+        "banner" var(--stock_height)
+        "navbar" var(--stock_height)
+        "mainwindow" 1fr
+        "footer" var(--stock_height)
+        / 1fr;
+}
+
+#banner {
+    grid-area: banner;
+    background-color: var(--banner_footer);
+}
+
+#navbar {
+    grid-area: navbar;
+    background-color: var(--navbar_colour);
+}
+
+#mainwindow {
+    grid-area: mainwindow;
+    background-color: var(--background_colour);
+    padding: 0 100px 0 100px;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: var(--banner_footer);
+}
+
+/*
+    Button style
+*/
+button {
+  background-color: var(--navbar_colour);
+  border: 1px solid var(--banner_footer);
+  transition: 1s;
+  text-align: center;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button:hover {
+    background-color: var(--highlight_colour);
+    transition: 1s;
+}
