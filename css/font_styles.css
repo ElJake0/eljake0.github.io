@@ -1,3 +1,7 @@
+body {
+  font: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 
 button {
   font-size: 20px;
@@ -5,4 +9,17 @@ button {
 
 #mainwindow {
   text-align: justify;
+}
+
+#footer {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+p.question {
+  font-weight: bold;
+}
+
+td {
+  border: 0.5px solid black;
 }
