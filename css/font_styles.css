@@ -45,3 +45,8 @@ td {
 section {
   border-bottom: 1px solid black;
 }
+
+#references {
+  text-align: left;
+  font-size: 14px;
+}

@@ -9,8 +9,8 @@
     Environmental variables
 */
 :root {
-    --banner_footer: #363636;
-    --navbar_colour: #6d6d6d;
+    --banner_footer: #3d3931;
+    --navbar_colour: #d3bc8d;
     --background_colour: #f4f4f4;
     --highlight_colour: #a8aefa;
     --stock_height: 50px;
@@ -22,6 +22,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #wrapper {
@@ -72,7 +73,7 @@ body {
 button {
   background-color: var(--navbar_colour);
   border: 1px solid var(--banner_footer);
-  transition: 1s;
+  transition: 0.6s;
   text-align: center;
 }
 
@@ -83,5 +84,5 @@ button {
 
 button:hover {
     background-color: var(--highlight_colour);
-    transition: 1s;
+    transition: 0.6s;
 }
