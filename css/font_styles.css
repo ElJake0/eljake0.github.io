@@ -11,7 +11,7 @@ button {
   text-align: justify;
 }
 
-#footer {
+#banner, #footer {
   text-align: center;
   color: #f1f1f1;
 }
@@ -40,4 +40,8 @@ table {
 
 td {
   padding: 5px 8px;
+}
+
+section {
+  border-bottom: 1px solid black;
 }
