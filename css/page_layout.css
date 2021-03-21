@@ -11,11 +11,7 @@
 :root {
     --banner_footer: #363636;
     --navbar_colour: #6d6d6d;
-    --background_colour: #dfdfdf;
-    --primary_colour: ;
-    --secondary_colour: ;
-    --text_primary_colour: ;
-    --text_secondary_colour: ;
+    --background_colour: #f4f4f4;
     --highlight_colour: #a8aefa;
     --stock_height: 50px;
 }
